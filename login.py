@@ -2,6 +2,9 @@
 import tkinter as tk
 from tkinter import messagebox
 import mariadb
+import sys
+import subprocess
+import os
 
 # FUNCIÓN PARA CONECTAR A MARIADB
 def conectar():
@@ -44,21 +47,31 @@ def login():
         
         cursor.execute(query, (usuario, password))
         resultado = cursor.fetchone()
-
+        rol = resultado[-1]
+        ventana_login.destroy()
+        
         if resultado:
-            id, username, rol = resultado
-            messagebox.showinfo("Acceso concedido", f"Bienvenido: {username}\nRol: {rol}")
-            ventana_login.destroy()
-
+            #id, username, rol = rol1
+            #messagebox.showinfo("Acceso concedido", f"Bienvenido: {username}\nRol: {rol}")
+            
             if rol == "Administrador":
                 #Usuario con privilegios de Administrador
-                ventana_admin()
+                parametro_a_pasar = "Administrador"
+                comando = ["python", "Principal.py", parametro_a_pasar]
+                subprocess.run(comando)
+                sys.exit()
+                #ventana_admin()
             else:
                 #Usuario con privilegios normales
-                ventana_usuario()
+                parametro_a_pasar = "Usuario"
+                comando = ["python", "Principal.py", parametro_a_pasar]
+                subprocess.run(comando)
+                sys.exit()
+                #ventana_usuario()
         else:
             messagebox.showerror("Error", "Usuario o contraseña incorrectos.")
-
+        
+        
         cursor.close()
         conexion.close()
 
@@ -66,47 +79,24 @@ def login():
         messagebox.showerror("Error en el query", f"{e}")
 
 
-# PANEL PARA ADMINISTRADORES
-def ventana_admin():
-    admin = tk.Tk()
-    admin.title("Panel Administrador")
-
-    tk.Label(admin, text="Bienvenido Administrador", font=("Arial", 16)).pack(pady=20)
-
-    tk.Button(admin, text="Gestión de Usuarios", width=25).pack(pady=5)
-    tk.Button(admin, text="Configuraciones del Sistema", width=25).pack(pady=5)
-    tk.Button(admin, text="Salir", command=admin.destroy).pack(pady=20)
-
-    admin.mainloop()
-
-
-# PANEL PARA USUARIOS NORMALES
-def ventana_usuario():
-    user = tk.Tk()
-    user.title("Panel Usuario")
-
-    tk.Label(user, text="Bienvenido Usuario", font=("Arial", 16)).pack(pady=20)
-
-    tk.Button(user, text="Ver Perfil", width=25).pack(pady=5)
-    tk.Button(user, text="Salir", command=user.destroy).pack(pady=20)
-
-    user.mainloop()
-
-
 # VENTANA DE LOGIN
 ventana_login = tk.Tk()
-ventana_login.title("Login")
-ventana_login.geometry("300x230")
+ventana_login.title("Login - Inicio de sesión")
+ventana_login.geometry("300x180")
+ventana_login.configure(bg='lightblue')
 ventana_login.resizable(False, False)
+icono_imagen = tk.PhotoImage(file="usuario.ico")
+ventana_login.iconphoto(True, icono_imagen)
 
-tk.Label(ventana_login, text="Usuario:").pack(pady=5)
+tk.Label(ventana_login, text="Usuario:", bg='lightblue', font=('Helvetica', 12, 'bold')).pack(pady=5)
 entry_usuario = tk.Entry(ventana_login)
 entry_usuario.pack()
+entry_usuario.focus()
 
-tk.Label(ventana_login, text="Contraseña:").pack(pady=5)
+tk.Label(ventana_login, text="Contraseña:", bg='lightblue', font=('Helvetica', 12, 'bold')).pack(pady=5)
 entry_password = tk.Entry(ventana_login, show="*")
 entry_password.pack()
 
-tk.Button(ventana_login, text="Iniciar sesión", command=login).pack(pady=20)
+tk.Button(ventana_login, text="Iniciar sesión", command=login, font=('Helvetica', 12, 'bold')).pack(pady=20)
 
 ventana_login.mainloop()

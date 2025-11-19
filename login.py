@@ -4,7 +4,7 @@ from tkinter import messagebox
 import mariadb
 import sys
 import subprocess
-import os
+
 
 # FUNCIÓN PARA CONECTAR A MARIADB
 def conectar():

@@ -2,10 +2,17 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 import sys
-import CrudCursos
+#import CrudCursos
 import CrudEstudiantes
 import CrudMatriculas
 import CrearUsuarios
+from CrearCursos import CRUDCursos
+from CalificacionesUnidades import CalificacionesUnidades
+from Graduaciones import Graduaciones
+from PIL import Image, ImageTk
+import subprocess
+import Informeeaxc
+
 
 class VentanaPrincipal(tk.Tk):
 
@@ -31,6 +38,17 @@ class VentanaPrincipal(tk.Tk):
         self.frame_contenido = ttk.Frame(self)
         self.frame_contenido.pack(fill="both", expand=True)
 
+        # ------------------- Imagen de fondo -------------------
+        # Cargar la imagen
+        self.imagen_fondo = Image.open("C:\\Users\\SRIVAS\\Documents\\ProyectoFinalPython\\imagenes\\FondoAplicacion.png")  # reemplaza con tu archivo
+        self.imagen_fondo = self.imagen_fondo.resize((900, 600), Image.LANCZOS)
+        self.fondo = ImageTk.PhotoImage(self.imagen_fondo)
+
+        # Crear un label que contenga la imagen
+        self.label_fondo = tk.Label(self.frame_contenido, image=self.fondo)
+        self.label_fondo.place(x=0, y=0, relwidth=1, relheight=1)
+        # --------------------------------------------------------
+
     # MENÚ PRINCIPAL
     def crear_menu(self):
         barra_menu = tk.Menu(self)
@@ -41,7 +59,7 @@ class VentanaPrincipal(tk.Tk):
         menu_ingresar.add_command(label="Matrícula", command=self.matricula)
         menu_ingresar.add_command(label="Estudiantes", command=self.estudiantes)
         menu_ingresar.add_command(label="Graduación", command=self.graduacion)
-        menu_ingresar.add_command(label="Unidades de Cursos", command=self.unidades_curso)
+        #menu_ingresar.add_command(label="Unidades de Cursos", command=self.unidades_curso)
        
         # Solo administradores pueden gestionar usuarios
         if self.rol == "Administrador":
@@ -106,7 +124,7 @@ class VentanaPrincipal(tk.Tk):
 
     # MÉTODOS DE ACCIÓN (placeholder)
     def cursos(self):
-        CrudCursos.CursosWindow()
+        CRUDCursos(self)
         
     def matricula(self):
         CrudMatriculas.MatriculaWindow()
@@ -115,26 +133,21 @@ class VentanaPrincipal(tk.Tk):
         CrudEstudiantes.EstudiantesWindow()
         
     def graduacion(self):
-        messagebox.showinfo("Graduación", "Ventana de Graduación")
-
-    def unidades_curso(self):
-        messagebox.showinfo("Unidades de Curso", "Gestión de Unidades")
-
+        Graduaciones(self)
+        
     def usuarios(self):
-        
-        #messagebox.showinfo("Usuarios", "Administración de Usuarios")
-        
-    #def calificaciones(self):
-        messagebox.showinfo("Calificaciones", "Calificaciones por Unidad")
-    
+        CrearUsuarios.CRUDUsuarios()
+            
     def calificaciones(self):
-        messagebox.showinfo("Calificaciones", "Calificaciones por Unidad")
-
+        CalificacionesUnidades()
+        
     def inf_activos(self):
-        messagebox.showinfo("Informe", "Estudiantes Activos por Curso")
-
+        #subprocess.run([sys.executable, "Informeeaxc.py"])
+        Informeeaxc.ventana_informe_activos()
+                
     def inf_inactivos(self):
         messagebox.showinfo("Informe", "Estudiantes Inactivos por Curso")
+    
 
     def inf_cursos_activos(self):
         messagebox.showinfo("Informe", "Cursos activos a una fecha")
@@ -146,11 +159,11 @@ class VentanaPrincipal(tk.Tk):
         messagebox.showinfo("Informe", "Cursos por tipo")
     
     def respaldar(self):
-        messagebox.showinfo("Respaldo de BD")
-    
+        subprocess.run([sys.executable, "Respaldobd.py"])
+            
     def restaurar(self):
-        messagebox.showinfo("Restauración de BD")
-
+        subprocess.run([sys.executable, "Restauro.py"])
+        
     def salir(self):
         exit()
 

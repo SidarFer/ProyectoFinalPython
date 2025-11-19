@@ -12,9 +12,7 @@ class CRUDUsuarios(tk.Toplevel):
         self.geometry("780x520")
         self.resizable(False, False)
 
-        # =======================
         # CONEXIÓN BD
-        # =======================
         self.conn = mariadb.connect(
             user="root",
             password="",
@@ -24,26 +22,20 @@ class CRUDUsuarios(tk.Toplevel):
         )
         self.cursor = self.conn.cursor()
 
-        # =======================
         # VARIABLES
-        # =======================
         self.var_id = tk.StringVar()
         self.var_usuario = tk.StringVar()
         self.var_password = tk.StringVar()
         self.var_rol = tk.StringVar()
 
-        # =======================
         # UI
-        # =======================
         self.crear_formulario()
         self.crear_tabla()
 
         # Cargar datos al iniciar
         self.cargar_usuarios()
 
-    # =======================
     # FORMULARIO
-    # =======================
     def crear_formulario(self):
         frame = ttk.LabelFrame(self, text="Datos del Usuario", padding=10)
         frame.place(x=10, y=10, width=760, height=250)
@@ -59,7 +51,7 @@ class CRUDUsuarios(tk.Toplevel):
 
         ttk.Label(frame, text="Rol:").grid(row=3, column=0, padx=5, pady=5, sticky="e")
         roles = ttk.Combobox(frame, textvariable=self.var_rol, width=27, state="readonly")
-        roles["values"] = ("Administrador", "UsuarioNormal")
+        roles["values"] = ("Administrador", "Usuario")
         roles.grid(row=3, column=1, padx=5, pady=5)
         roles.current(0)
 
@@ -73,14 +65,12 @@ class CRUDUsuarios(tk.Toplevel):
         ttk.Button(btn_frame, text="Limpiar", command=self.limpiar_formulario).grid(row=0, column=3, padx=10)
         ttk.Button(btn_frame, text="Salir", command=self.salir).grid(row=0, column=4, padx=10)
 
-    # =======================
     # TABLA
-    # =======================
     def crear_tabla(self):
         frame_tabla = ttk.Frame(self)
         frame_tabla.place(x=10, y=200, width=760, height=290)
 
-        columnas = ("ID", "Usuario", "Rol")
+        columnas = ("ID", "Usuario", "Rolid")
         self.tabla = ttk.Treeview(frame_tabla, columns=columnas, show="headings", height=11)
 
         for col in columnas:
@@ -90,9 +80,7 @@ class CRUDUsuarios(tk.Toplevel):
         self.tabla.bind("<ButtonRelease-1>", self.seleccionar_fila)
         self.tabla.pack(fill="both", expand=True)
 
-    # =======================
     # CRUD FUNCIONES
-    # =======================
     def cargar_usuarios(self):
         self.tabla.delete(*self.tabla.get_children())
 
@@ -172,7 +160,7 @@ class CRUDUsuarios(tk.Toplevel):
             self.var_rol.set(valores[2])
 
             # Obtener contraseña desde la BD
-            sql = "SELECT password FROM usuarios WHERE id=%s"
+            sql = "SELECT clave FROM usuarios WHERE id=%s"
             self.cursor.execute(sql, (valores[0],))
             fila = self.cursor.fetchone()
             if fila:
@@ -185,10 +173,9 @@ class CRUDUsuarios(tk.Toplevel):
         self.var_rol.set("Administrador")
 
     def salir(self):
-        exit()
-# =================================================
+        self.destroy()
+
 # Prueba independiente (ejecutar solo este archivo)
-# =================================================
 if __name__ == "__main__":
     root = tk.Tk()
     root.withdraw()

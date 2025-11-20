@@ -142,22 +142,20 @@ class VentanaPrincipal(tk.Tk):
         CalificacionesUnidades()
         
     def inf_activos(self):
-        #subprocess.run([sys.executable, "Informeeaxc.py"])
         Informeeaxc.ventana_informe_activos()
                 
     def inf_inactivos(self):
-        messagebox.showinfo("Informe", "Estudiantes Inactivos por Curso")
-    
-
+        subprocess.run([sys.executable, "InformeEstudiantesActivos.py"])
+            
     def inf_cursos_activos(self):
         messagebox.showinfo("Informe", "Cursos activos a una fecha")
 
     def inf_cursos_finalizados(self):
-        messagebox.showinfo("Informe", "Cursos finalizados a una fecha")
-
+        subprocess.run([sys.executable, "InformeCursosFinalizados.py"])
+        
     def inf_cursos_tipo(self):
-        messagebox.showinfo("Informe", "Cursos por tipo")
-    
+        subprocess.run([sys.executable, "InformeCursosTipo.py"])
+            
     def respaldar(self):
         subprocess.run([sys.executable, "Respaldobd.py"])
             

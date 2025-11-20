@@ -168,12 +168,9 @@ class VentanaPrincipal(tk.Tk):
 
 # EJEMPLO DE ARRANQUE
 parametro_recibido = sys.argv[1]
-if len(sys.argv) > 1:
-    parametro_recibido = sys.argv[1]
-    print(f"Script destino: Parámetro recibido: {parametro_recibido}")
-else:
-    print("Script destino: No se recibieron parámetros.")
-
+#if len(sys.argv) > 1:
+    #parametro_recibido = sys.argv[1]
+    #print(f"Script destino: Parámetro recibido: {parametro_recibido}")
 
 if __name__ == "__main__":
     # Cambia esto por el rol recibido desde tu sistema de login

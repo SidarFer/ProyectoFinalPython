@@ -1,0 +1,4300 @@
+{
+  "title" : "",
+  "description" : "",
+  "author" : "",
+  "width" : 1920.0,
+  "height" : 1080.0,
+  "version" : "0.5",
+  "editRate" : 30,
+  "authoringClientName" :  {
+    "name" : "Camtasia Studio",
+    "platform" : "Windows",
+    "version" : "9.0"
+  },
+  "sourceBin" : [
+    {
+      "id" : 1,
+      "src" : "C:\\Users\\SRIVAS\\Documents\\Camtasia Studio\\Rec 11-21-25.trec",
+      "rect" : [0, 0, 1920, 1080],
+      "lastMod" : "20251121T132356",
+      "sourceTracks" : [
+        {
+          "range" : [0, 11603],
+          "type" : 0,
+          "editRate" : 30,
+          "trackRect" : [0, 0, 1920, 1080],
+          "sampleRate" : 24,
+          "bitDepth" : 0,
+          "numChannels" : 0,
+          "metaData" : "Rec 11-21-25.trec;"
+        },
+        {
+          "range" : [0, 17046528],
+          "type" : 2,
+          "editRate" : 44100,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 16,
+          "numChannels" : 2,
+          "metaData" : ""
+        },
+        {
+          "range" : [0, 17060864],
+          "type" : 2,
+          "editRate" : 44100,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 16,
+          "numChannels" : 2,
+          "metaData" : ""
+        }
+      ]
+    },
+    {
+      "id" : 2,
+      "src" : "C:\\Users\\SRIVAS\\Documents\\ProyectoFinalPython\\VideoFuncionamientoSISTECURCAP\\Canción misión imposible.mp3",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20251121T132729",
+      "sourceTracks" : [
+        {
+          "range" : [0, 2073599583],
+          "type" : 2,
+          "editRate" : 10000000,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 0,
+          "numChannels" : 2,
+          "metaData" : ""
+        }
+      ]
+    }
+  ],
+  "timeline" : {
+    "id" : 3,
+    "sceneTrack" : {
+      "scenes" : [
+        {
+          "duration" : 322.7,
+          "title" : "",
+          "type" : "",
+          "csml" : {
+            "tracks" : [
+              {
+                "trackIndex" : 0,
+                "medias" : [
+                  {
+                    "id" : 4,
+                    "_type" : "UnifiedMedia",
+                    "video" : 
+                        {
+                          "id" : 5,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 11-21-25"
+                          },
+                          "parameters" : {
+                            "translation0" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 31.1658057818343,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -5.80653531869757e-05,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "translation1" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 360.636091014753,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -0.000291035330547196,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale0" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250854270136,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 0.999999978667075,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale1" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250918877122,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 1.00000058753413,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 0,
+                          "duration" : 136,
+                          "mediaStart" : 669,
+                          "mediaDuration" : 136,
+                          "scalar" : 1,
+                          "animationTracks" : {
+                            "visual" : [
+                              {
+                                "range" : [ 661, 30]
+                              },
+                              {
+                                "range" : [ 775, 30]
+                              }
+                            ]
+                          }
+                        },
+                    "audio" : 
+                        {
+                          "id" : 6,
+                          "_type" : "AMFile",
+                          "src" : 1,
+                          "trackNumber" : 2,
+                          "attributes" : {
+                            "ident" : "",
+                            "sampleRate" : 44100,
+                            "bitDepth" : 16,
+                            "gain" : 1.0,
+                            "mixToMono" : false
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 0,
+                          "duration" : 136,
+                          "mediaStart" : 669,
+                          "mediaDuration" : 136,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        }
+,
+                    "start" : 0,
+                    "duration" : 136,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 11603,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    }
+                  },
+                  {
+                    "id" : 7,
+                    "_type" : "UnifiedMedia",
+                    "video" : 
+                        {
+                          "id" : 8,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 11-21-25"
+                          },
+                          "parameters" : {
+                            "translation0" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 31.1658057818343,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -5.80653531869757e-05,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 140.440091327223,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 1163.99887319703,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 106.49832602038,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "translation1" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 360.636091014753,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -0.000291035330547196,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : -78.9979531735264,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : -654.750344427672,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : -65.4142837863902,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale0" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250854270136,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 0.999999978667075,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 1.62819343951218,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 3.14263466651293,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 1.44756841193967,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale1" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250918877122,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 1.00000058753413,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 1.62819443086555,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 3.14263697819773,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 1.4475693922584,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 136,
+                          "duration" : 387,
+                          "mediaStart" : 977,
+                          "mediaDuration" : 387,
+                          "scalar" : 1,
+                          "animationTracks" : {
+                            "visual" : [
+                              {
+                                "range" : [ 661, 30]
+                              },
+                              {
+                                "range" : [ 775, 30]
+                              },
+                              {
+                                "range" : [ 948, 30]
+                              },
+                              {
+                                "range" : [ 981, 30]
+                              },
+                              {
+                                "range" : [ 1272, 30]
+                              }
+                            ]
+                          }
+                        },
+                    "audio" : 
+                        {
+                          "id" : 9,
+                          "_type" : "AMFile",
+                          "src" : 1,
+                          "trackNumber" : 2,
+                          "attributes" : {
+                            "ident" : "",
+                            "sampleRate" : 44100,
+                            "bitDepth" : 16,
+                            "gain" : 1.0,
+                            "mixToMono" : false
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 136,
+                          "duration" : 387,
+                          "mediaStart" : 977,
+                          "mediaDuration" : 387,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        }
+,
+                    "start" : 136,
+                    "duration" : 387,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 11603,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    }
+                  },
+                  {
+                    "id" : 10,
+                    "_type" : "UnifiedMedia",
+                    "video" : 
+                        {
+                          "id" : 11,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 11-21-25"
+                          },
+                          "parameters" : {
+                            "translation0" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 31.1658057818343,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -5.80653531869757e-05,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 140.440091327223,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 1163.99887319703,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 106.49832602038,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 146.980938324642,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : 146.980978565919,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "translation1" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 360.636091014753,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -0.000291035330547196,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : -78.9979531735264,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : -654.750344427672,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : -65.4142837863902,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : -90.2797829087937,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : -242.328927033759,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale0" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250854270136,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 0.999999978667075,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 1.62819343951218,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 3.14263466651293,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 1.44756841193967,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 1.99782222994111,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : 1.9978222567647,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale1" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250918877122,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 1.00000058753413,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 1.62819443086555,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 3.14263697819773,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 1.4475693922584,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 1.99782308926838,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 523,
+                          "duration" : 1468,
+                          "mediaStart" : 1454,
+                          "mediaDuration" : 1468,
+                          "scalar" : 1,
+                          "animationTracks" : {
+                            "visual" : [
+                              {
+                                "range" : [ 661, 30]
+                              },
+                              {
+                                "range" : [ 775, 30]
+                              },
+                              {
+                                "range" : [ 948, 30]
+                              },
+                              {
+                                "range" : [ 981, 30]
+                              },
+                              {
+                                "range" : [ 1272, 30]
+                              },
+                              {
+                                "range" : [ 1424, 30]
+                              },
+                              {
+                                "range" : [ 2775, 30]
+                              }
+                            ]
+                          }
+                        },
+                    "audio" : 
+                        {
+                          "id" : 12,
+                          "_type" : "AMFile",
+                          "src" : 1,
+                          "trackNumber" : 2,
+                          "attributes" : {
+                            "ident" : "",
+                            "sampleRate" : 44100,
+                            "bitDepth" : 16,
+                            "gain" : 1.0,
+                            "mixToMono" : false
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 523,
+                          "duration" : 1468,
+                          "mediaStart" : 1454,
+                          "mediaDuration" : 1468,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        }
+,
+                    "start" : 523,
+                    "duration" : 1468,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 11603,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    }
+                  },
+                  {
+                    "id" : 13,
+                    "_type" : "UnifiedMedia",
+                    "video" : 
+                        {
+                          "id" : 14,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 11-21-25"
+                          },
+                          "parameters" : {
+                            "translation0" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 31.1658057818343,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -5.80653531869757e-05,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 140.440091327223,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 1163.99887319703,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 106.49832602038,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 146.980938324642,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : 146.980978565919,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 116.710153779372,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "translation1" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 360.636091014753,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -0.000291035330547196,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : -78.9979531735264,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : -654.750344427672,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : -65.4142837863902,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : -90.2797829087937,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : -242.328927033759,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : -35.56072314139,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale0" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250854270136,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 0.999999978667075,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 1.62819343951218,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 3.14263466651293,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 1.44756841193967,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 1.99782222994111,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : 1.9978222567647,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 1.91686217238796,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale1" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250918877122,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 1.00000058753413,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 1.62819443086555,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 3.14263697819773,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 1.4475693922584,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 1.99782308926838,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 1.91686274786936,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 1991,
+                          "duration" : 1274,
+                          "mediaStart" : 2990,
+                          "mediaDuration" : 1274,
+                          "scalar" : 1,
+                          "animationTracks" : {
+                            "visual" : [
+                              {
+                                "range" : [ 661, 30]
+                              },
+                              {
+                                "range" : [ 775, 30]
+                              },
+                              {
+                                "range" : [ 948, 30]
+                              },
+                              {
+                                "range" : [ 981, 30]
+                              },
+                              {
+                                "range" : [ 1272, 30]
+                              },
+                              {
+                                "range" : [ 1424, 30]
+                              },
+                              {
+                                "range" : [ 2775, 30]
+                              },
+                              {
+                                "range" : [ 2960, 30]
+                              }
+                            ]
+                          }
+                        },
+                    "audio" : 
+                        {
+                          "id" : 15,
+                          "_type" : "AMFile",
+                          "src" : 1,
+                          "trackNumber" : 2,
+                          "attributes" : {
+                            "ident" : "",
+                            "sampleRate" : 44100,
+                            "bitDepth" : 16,
+                            "gain" : 1.0,
+                            "mixToMono" : false
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 1991,
+                          "duration" : 1274,
+                          "mediaStart" : 2990,
+                          "mediaDuration" : 1274,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        }
+,
+                    "start" : 1991,
+                    "duration" : 1274,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 11603,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    }
+                  },
+                  {
+                    "id" : 16,
+                    "_type" : "UnifiedMedia",
+                    "video" : 
+                        {
+                          "id" : 17,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 11-21-25"
+                          },
+                          "parameters" : {
+                            "translation0" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 31.1658057818343,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -5.80653531869757e-05,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 140.440091327223,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 1163.99887319703,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 106.49832602038,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 146.980938324642,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : 146.980978565919,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 116.710153779372,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "translation1" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 360.636091014753,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -0.000291035330547196,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : -78.9979531735264,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : -654.750344427672,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : -65.4142837863902,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : -90.2797829087937,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : -242.328927033759,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : -35.56072314139,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale0" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250854270136,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 0.999999978667075,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 1.62819343951218,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 3.14263466651293,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 1.44756841193967,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 1.99782222994111,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : 1.9978222567647,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 1.91686217238796,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale1" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250918877122,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 1.00000058753413,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 1.62819443086555,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 3.14263697819773,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 1.4475693922584,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 1.99782308926838,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 1.91686274786936,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 3265,
+                          "duration" : 1137,
+                          "mediaStart" : 4352,
+                          "mediaDuration" : 1137,
+                          "scalar" : 1,
+                          "animationTracks" : {
+                            "visual" : [
+                              {
+                                "range" : [ 661, 30]
+                              },
+                              {
+                                "range" : [ 775, 30]
+                              },
+                              {
+                                "range" : [ 948, 30]
+                              },
+                              {
+                                "range" : [ 981, 30]
+                              },
+                              {
+                                "range" : [ 1272, 30]
+                              },
+                              {
+                                "range" : [ 1424, 30]
+                              },
+                              {
+                                "range" : [ 2775, 30]
+                              },
+                              {
+                                "range" : [ 2960, 30]
+                              }
+                            ]
+                          }
+                        },
+                    "audio" : 
+                        {
+                          "id" : 18,
+                          "_type" : "AMFile",
+                          "src" : 1,
+                          "trackNumber" : 2,
+                          "attributes" : {
+                            "ident" : "",
+                            "sampleRate" : 44100,
+                            "bitDepth" : 16,
+                            "gain" : 1.0,
+                            "mixToMono" : false
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 3265,
+                          "duration" : 1137,
+                          "mediaStart" : 4352,
+                          "mediaDuration" : 1137,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        }
+,
+                    "start" : 3265,
+                    "duration" : 1137,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 11603,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    }
+                  },
+                  {
+                    "id" : 19,
+                    "_type" : "UnifiedMedia",
+                    "video" : 
+                        {
+                          "id" : 20,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 11-21-25"
+                          },
+                          "parameters" : {
+                            "translation0" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 31.1658057818343,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -5.80653531869757e-05,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 140.440091327223,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 1163.99887319703,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 106.49832602038,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 146.980938324642,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : 146.980978565919,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 116.710153779372,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5459,
+                                  "value" : 145.887636572583,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : 720.485246206636,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : 223.613448850567,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : 307.093616850064,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6555,
+                                  "value" : 341.533735039432,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "translation1" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 360.636091014753,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -0.000291035330547196,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : -78.9979531735264,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : -654.750344427672,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : -65.4142837863902,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : -90.2797829087937,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : -242.328927033759,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : -35.56072314139,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5459,
+                                  "value" : -137.681907655397,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : -489.792116777805,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : -35.2765882450357,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : -139.376444260838,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6555,
+                                  "value" : -328.798185212813,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale0" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250854270136,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 0.999999978667075,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 1.62819343951218,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 3.14263466651293,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 1.44756841193967,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 1.99782222994111,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : 1.9978222567647,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 1.91686217238796,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5459,
+                                  "value" : 1.9168622711625,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : 2.91282660657223,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : 1.49819430737918,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : 2.26261328473677,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6555,
+                                  "value" : 2.26261302669797,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale1" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250918877122,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 1.00000058753413,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 1.62819443086555,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 3.14263697819773,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 1.4475693922584,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 1.99782308926838,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 1.91686274786936,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : 2.91282710288389,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : 1.49819432466266,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : 2.26261338799457,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 4402,
+                          "duration" : 1054,
+                          "mediaStart" : 5581,
+                          "mediaDuration" : 1054,
+                          "scalar" : 1,
+                          "animationTracks" : {
+                            "visual" : [
+                              {
+                                "range" : [ 661, 30]
+                              },
+                              {
+                                "range" : [ 775, 30]
+                              },
+                              {
+                                "range" : [ 948, 30]
+                              },
+                              {
+                                "range" : [ 981, 30]
+                              },
+                              {
+                                "range" : [ 1272, 30]
+                              },
+                              {
+                                "range" : [ 1424, 30]
+                              },
+                              {
+                                "range" : [ 2775, 30]
+                              },
+                              {
+                                "range" : [ 2960, 30]
+                              },
+                              {
+                                "range" : [ 5459, 30]
+                              },
+                              {
+                                "range" : [ 5489, 12]
+                              },
+                              {
+                                "range" : [ 5565, 30]
+                              },
+                              {
+                                "range" : [ 5627, 30]
+                              },
+                              {
+                                "range" : [ 6555, 30]
+                              }
+                            ]
+                          }
+                        },
+                    "audio" : 
+                        {
+                          "id" : 21,
+                          "_type" : "AMFile",
+                          "src" : 1,
+                          "trackNumber" : 2,
+                          "attributes" : {
+                            "ident" : "",
+                            "sampleRate" : 44100,
+                            "bitDepth" : 16,
+                            "gain" : 1.0,
+                            "mixToMono" : false
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 4402,
+                          "duration" : 1054,
+                          "mediaStart" : 5581,
+                          "mediaDuration" : 1054,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        }
+,
+                    "start" : 4402,
+                    "duration" : 1054,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 11603,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    }
+                  },
+                  {
+                    "id" : 22,
+                    "_type" : "UnifiedMedia",
+                    "video" : 
+                        {
+                          "id" : 23,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 11-21-25"
+                          },
+                          "parameters" : {
+                            "translation0" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 31.1658057818343,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -5.80653531869757e-05,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 140.440091327223,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 1163.99887319703,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 106.49832602038,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 146.980938324642,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : 146.980978565919,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 116.710153779372,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5459,
+                                  "value" : 145.887636572583,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : 720.485246206636,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : 223.613448850567,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : 307.093616850064,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6555,
+                                  "value" : 341.533735039432,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6684,
+                                  "value" : 358.753850202605,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 7847,
+                                  "value" : 285.83370278626,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "translation1" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 360.636091014753,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -0.000291035330547196,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : -78.9979531735264,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : -654.750344427672,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : -65.4142837863902,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : -90.2797829087937,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : -242.328927033759,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : -35.56072314139,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5459,
+                                  "value" : -137.681907655397,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : -489.792116777805,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : -35.2765882450357,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : -139.376444260838,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6555,
+                                  "value" : -328.798185212813,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6684,
+                                  "value" : -259.917552139367,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 7847,
+                                  "value" : -207.086897947395,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale0" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250854270136,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 0.999999978667075,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 1.62819343951218,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 3.14263466651293,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 1.44756841193967,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 1.99782222994111,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : 1.9978222567647,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 1.91686217238796,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5459,
+                                  "value" : 1.9168622711625,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : 2.91282660657223,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : 1.49819430737918,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : 2.26261328473677,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6555,
+                                  "value" : 2.26261302669797,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6684,
+                                  "value" : 2.26261292348245,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 7847,
+                                  "value" : 1.80271585742233,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale1" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250918877122,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 1.00000058753413,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 1.62819443086555,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 3.14263697819773,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 1.4475693922584,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 1.99782308926838,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 1.91686274786936,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : 2.91282710288389,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : 1.49819432466266,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : 2.26261338799457,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 7847,
+                                  "value" : 1.80271622257662,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 5456,
+                          "duration" : 1316,
+                          "mediaStart" : 6714,
+                          "mediaDuration" : 1316,
+                          "scalar" : 1,
+                          "animationTracks" : {
+                            "visual" : [
+                              {
+                                "range" : [ 661, 30]
+                              },
+                              {
+                                "range" : [ 775, 30]
+                              },
+                              {
+                                "range" : [ 948, 30]
+                              },
+                              {
+                                "range" : [ 981, 30]
+                              },
+                              {
+                                "range" : [ 1272, 30]
+                              },
+                              {
+                                "range" : [ 1424, 30]
+                              },
+                              {
+                                "range" : [ 2775, 30]
+                              },
+                              {
+                                "range" : [ 2960, 30]
+                              },
+                              {
+                                "range" : [ 5459, 30]
+                              },
+                              {
+                                "range" : [ 5489, 12]
+                              },
+                              {
+                                "range" : [ 5565, 30]
+                              },
+                              {
+                                "range" : [ 5627, 30]
+                              },
+                              {
+                                "range" : [ 6555, 30]
+                              },
+                              {
+                                "range" : [ 6684, 30]
+                              },
+                              {
+                                "range" : [ 7847, 30]
+                              }
+                            ]
+                          }
+                        },
+                    "audio" : 
+                        {
+                          "id" : 24,
+                          "_type" : "AMFile",
+                          "src" : 1,
+                          "trackNumber" : 2,
+                          "attributes" : {
+                            "ident" : "",
+                            "sampleRate" : 44100,
+                            "bitDepth" : 16,
+                            "gain" : 1.0,
+                            "mixToMono" : false
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 5456,
+                          "duration" : 1316,
+                          "mediaStart" : 6714,
+                          "mediaDuration" : 1316,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        }
+,
+                    "start" : 5456,
+                    "duration" : 1316,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 11603,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    }
+                  },
+                  {
+                    "id" : 25,
+                    "_type" : "UnifiedMedia",
+                    "video" : 
+                        {
+                          "id" : 26,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 11-21-25"
+                          },
+                          "parameters" : {
+                            "translation0" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 31.1658057818343,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -5.80653531869757e-05,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 140.440091327223,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 1163.99887319703,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 106.49832602038,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 146.980938324642,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : 146.980978565919,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 116.710153779372,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5459,
+                                  "value" : 145.887636572583,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : 720.485246206636,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : 223.613448850567,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : 307.093616850064,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6555,
+                                  "value" : 341.533735039432,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6684,
+                                  "value" : 358.753850202605,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 7847,
+                                  "value" : 285.83370278626,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "translation1" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 360.636091014753,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -0.000291035330547196,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : -78.9979531735264,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : -654.750344427672,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : -65.4142837863902,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : -90.2797829087937,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : -242.328927033759,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : -35.56072314139,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5459,
+                                  "value" : -137.681907655397,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : -489.792116777805,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : -35.2765882450357,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : -139.376444260838,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6555,
+                                  "value" : -328.798185212813,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6684,
+                                  "value" : -259.917552139367,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 7847,
+                                  "value" : -207.086897947395,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale0" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250854270136,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 0.999999978667075,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 1.62819343951218,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 3.14263466651293,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 1.44756841193967,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 1.99782222994111,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : 1.9978222567647,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 1.91686217238796,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5459,
+                                  "value" : 1.9168622711625,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : 2.91282660657223,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : 1.49819430737918,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : 2.26261328473677,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6555,
+                                  "value" : 2.26261302669797,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6684,
+                                  "value" : 2.26261292348245,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 7847,
+                                  "value" : 1.80271585742233,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale1" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250918877122,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 1.00000058753413,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 1.62819443086555,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 3.14263697819773,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 1.4475693922584,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 1.99782308926838,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 1.91686274786936,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : 2.91282710288389,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : 1.49819432466266,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : 2.26261338799457,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 7847,
+                                  "value" : 1.80271622257662,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 6772,
+                          "duration" : 446,
+                          "mediaStart" : 8138,
+                          "mediaDuration" : 446,
+                          "scalar" : 1,
+                          "animationTracks" : {
+                            "visual" : [
+                              {
+                                "range" : [ 661, 30]
+                              },
+                              {
+                                "range" : [ 775, 30]
+                              },
+                              {
+                                "range" : [ 948, 30]
+                              },
+                              {
+                                "range" : [ 981, 30]
+                              },
+                              {
+                                "range" : [ 1272, 30]
+                              },
+                              {
+                                "range" : [ 1424, 30]
+                              },
+                              {
+                                "range" : [ 2775, 30]
+                              },
+                              {
+                                "range" : [ 2960, 30]
+                              },
+                              {
+                                "range" : [ 5459, 30]
+                              },
+                              {
+                                "range" : [ 5489, 12]
+                              },
+                              {
+                                "range" : [ 5565, 30]
+                              },
+                              {
+                                "range" : [ 5627, 30]
+                              },
+                              {
+                                "range" : [ 6555, 30]
+                              },
+                              {
+                                "range" : [ 6684, 30]
+                              },
+                              {
+                                "range" : [ 7847, 30]
+                              }
+                            ]
+                          }
+                        },
+                    "audio" : 
+                        {
+                          "id" : 27,
+                          "_type" : "AMFile",
+                          "src" : 1,
+                          "trackNumber" : 2,
+                          "attributes" : {
+                            "ident" : "",
+                            "sampleRate" : 44100,
+                            "bitDepth" : 16,
+                            "gain" : 1.0,
+                            "mixToMono" : false
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 6772,
+                          "duration" : 446,
+                          "mediaStart" : 8138,
+                          "mediaDuration" : 446,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        }
+,
+                    "start" : 6772,
+                    "duration" : 446,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 11603,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    }
+                  },
+                  {
+                    "id" : 28,
+                    "_type" : "UnifiedMedia",
+                    "video" : 
+                        {
+                          "id" : 29,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 11-21-25"
+                          },
+                          "parameters" : {
+                            "translation0" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 31.1658057818343,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -5.80653531869757e-05,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 140.440091327223,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 1163.99887319703,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 106.49832602038,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 146.980938324642,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : 146.980978565919,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 116.710153779372,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5459,
+                                  "value" : 145.887636572583,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : 720.485246206636,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : 223.613448850567,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : 307.093616850064,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6555,
+                                  "value" : 341.533735039432,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6684,
+                                  "value" : 358.753850202605,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 7847,
+                                  "value" : 285.83370278626,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "translation1" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 360.636091014753,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -0.000291035330547196,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : -78.9979531735264,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : -654.750344427672,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : -65.4142837863902,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : -90.2797829087937,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : -242.328927033759,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : -35.56072314139,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5459,
+                                  "value" : -137.681907655397,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : -489.792116777805,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : -35.2765882450357,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : -139.376444260838,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6555,
+                                  "value" : -328.798185212813,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6684,
+                                  "value" : -259.917552139367,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 7847,
+                                  "value" : -207.086897947395,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale0" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250854270136,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 0.999999978667075,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 1.62819343951218,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 3.14263466651293,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 1.44756841193967,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 1.99782222994111,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : 1.9978222567647,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 1.91686217238796,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5459,
+                                  "value" : 1.9168622711625,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : 2.91282660657223,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : 1.49819430737918,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : 2.26261328473677,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6555,
+                                  "value" : 2.26261302669797,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6684,
+                                  "value" : 2.26261292348245,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 7847,
+                                  "value" : 1.80271585742233,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale1" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250918877122,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 1.00000058753413,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 1.62819443086555,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 3.14263697819773,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 1.4475693922584,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 1.99782308926838,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 1.91686274786936,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : 2.91282710288389,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : 1.49819432466266,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : 2.26261338799457,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 7847,
+                                  "value" : 1.80271622257662,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 7218,
+                          "duration" : 542,
+                          "mediaStart" : 8663,
+                          "mediaDuration" : 542,
+                          "scalar" : 1,
+                          "animationTracks" : {
+                            "visual" : [
+                              {
+                                "range" : [ 661, 30]
+                              },
+                              {
+                                "range" : [ 775, 30]
+                              },
+                              {
+                                "range" : [ 948, 30]
+                              },
+                              {
+                                "range" : [ 981, 30]
+                              },
+                              {
+                                "range" : [ 1272, 30]
+                              },
+                              {
+                                "range" : [ 1424, 30]
+                              },
+                              {
+                                "range" : [ 2775, 30]
+                              },
+                              {
+                                "range" : [ 2960, 30]
+                              },
+                              {
+                                "range" : [ 5459, 30]
+                              },
+                              {
+                                "range" : [ 5489, 12]
+                              },
+                              {
+                                "range" : [ 5565, 30]
+                              },
+                              {
+                                "range" : [ 5627, 30]
+                              },
+                              {
+                                "range" : [ 6555, 30]
+                              },
+                              {
+                                "range" : [ 6684, 30]
+                              },
+                              {
+                                "range" : [ 7847, 30]
+                              }
+                            ]
+                          }
+                        },
+                    "audio" : 
+                        {
+                          "id" : 30,
+                          "_type" : "AMFile",
+                          "src" : 1,
+                          "trackNumber" : 2,
+                          "attributes" : {
+                            "ident" : "",
+                            "sampleRate" : 44100,
+                            "bitDepth" : 16,
+                            "gain" : 1.0,
+                            "mixToMono" : false
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 7218,
+                          "duration" : 542,
+                          "mediaStart" : 8663,
+                          "mediaDuration" : 542,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        }
+,
+                    "start" : 7218,
+                    "duration" : 542,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 11603,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    }
+                  },
+                  {
+                    "id" : 31,
+                    "_type" : "UnifiedMedia",
+                    "video" : 
+                        {
+                          "id" : 32,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 11-21-25"
+                          },
+                          "parameters" : {
+                            "translation0" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 31.1658057818343,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -5.80653531869757e-05,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 140.440091327223,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 1163.99887319703,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 106.49832602038,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 146.980938324642,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : 146.980978565919,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 116.710153779372,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5459,
+                                  "value" : 145.887636572583,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : 720.485246206636,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : 223.613448850567,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : 307.093616850064,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6555,
+                                  "value" : 341.533735039432,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6684,
+                                  "value" : 358.753850202605,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 7847,
+                                  "value" : 285.83370278626,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "translation1" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 360.636091014753,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -0.000291035330547196,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : -78.9979531735264,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : -654.750344427672,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : -65.4142837863902,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : -90.2797829087937,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : -242.328927033759,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : -35.56072314139,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5459,
+                                  "value" : -137.681907655397,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : -489.792116777805,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : -35.2765882450357,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : -139.376444260838,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6555,
+                                  "value" : -328.798185212813,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6684,
+                                  "value" : -259.917552139367,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 7847,
+                                  "value" : -207.086897947395,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale0" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250854270136,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 0.999999978667075,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 1.62819343951218,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 3.14263466651293,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 1.44756841193967,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 1.99782222994111,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : 1.9978222567647,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 1.91686217238796,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5459,
+                                  "value" : 1.9168622711625,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : 2.91282660657223,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : 1.49819430737918,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : 2.26261328473677,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6555,
+                                  "value" : 2.26261302669797,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6684,
+                                  "value" : 2.26261292348245,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 7847,
+                                  "value" : 1.80271585742233,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale1" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250918877122,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 1.00000058753413,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 1.62819443086555,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 3.14263697819773,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 1.4475693922584,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 1.99782308926838,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 1.91686274786936,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : 2.91282710288389,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : 1.49819432466266,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : 2.26261338799457,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 7847,
+                                  "value" : 1.80271622257662,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 7760,
+                          "duration" : 246,
+                          "mediaStart" : 9410,
+                          "mediaDuration" : 246,
+                          "scalar" : 1,
+                          "animationTracks" : {
+                            "visual" : [
+                              {
+                                "range" : [ 661, 30]
+                              },
+                              {
+                                "range" : [ 775, 30]
+                              },
+                              {
+                                "range" : [ 948, 30]
+                              },
+                              {
+                                "range" : [ 981, 30]
+                              },
+                              {
+                                "range" : [ 1272, 30]
+                              },
+                              {
+                                "range" : [ 1424, 30]
+                              },
+                              {
+                                "range" : [ 2775, 30]
+                              },
+                              {
+                                "range" : [ 2960, 30]
+                              },
+                              {
+                                "range" : [ 5459, 30]
+                              },
+                              {
+                                "range" : [ 5489, 12]
+                              },
+                              {
+                                "range" : [ 5565, 30]
+                              },
+                              {
+                                "range" : [ 5627, 30]
+                              },
+                              {
+                                "range" : [ 6555, 30]
+                              },
+                              {
+                                "range" : [ 6684, 30]
+                              },
+                              {
+                                "range" : [ 7847, 30]
+                              }
+                            ]
+                          }
+                        },
+                    "audio" : 
+                        {
+                          "id" : 33,
+                          "_type" : "AMFile",
+                          "src" : 1,
+                          "trackNumber" : 2,
+                          "attributes" : {
+                            "ident" : "",
+                            "sampleRate" : 44100,
+                            "bitDepth" : 16,
+                            "gain" : 1.0,
+                            "mixToMono" : false
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 7760,
+                          "duration" : 246,
+                          "mediaStart" : 9410,
+                          "mediaDuration" : 246,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        }
+,
+                    "start" : 7760,
+                    "duration" : 246,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 11603,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    }
+                  },
+                  {
+                    "id" : 34,
+                    "_type" : "UnifiedMedia",
+                    "video" : 
+                        {
+                          "id" : 35,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 11-21-25"
+                          },
+                          "parameters" : {
+                            "translation0" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 31.1658057818343,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -5.80653531869757e-05,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 140.440091327223,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 1163.99887319703,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 106.49832602038,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 146.980938324642,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : 146.980978565919,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 116.710153779372,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5459,
+                                  "value" : 145.887636572583,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : 720.485246206636,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : 223.613448850567,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : 307.093616850064,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6555,
+                                  "value" : 341.533735039432,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6684,
+                                  "value" : 358.753850202605,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 7847,
+                                  "value" : 285.83370278626,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 10124,
+                                  "value" : 23.4665003026366,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 10443,
+                                  "value" : 348.152436047625,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 10576,
+                                  "value" : 857.175076869249,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 10830,
+                                  "value" : 108.047373170018,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 10991,
+                                  "value" : 264.584365188151,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 11189,
+                                  "value" : 523.289218430356,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 11249,
+                                  "value" : -76.4351810662632,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 11299,
+                                  "value" : 429.214720357909,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 11475,
+                                  "value" : 176.095720388689,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "translation1" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 360.636091014753,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : -0.000291035330547196,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : -78.9979531735264,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : -654.750344427672,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : -65.4142837863902,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : -90.2797829087937,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : -242.328927033759,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : -35.56072314139,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5459,
+                                  "value" : -137.681907655397,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : -489.792116777805,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : -35.2765882450357,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : -139.376444260838,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6555,
+                                  "value" : -328.798185212813,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6684,
+                                  "value" : -259.917552139367,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 7847,
+                                  "value" : -207.086897947395,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 10124,
+                                  "value" : -49.7536597182034,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 10443,
+                                  "value" : -244.45750964701,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 10576,
+                                  "value" : -482.161400759202,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 10830,
+                                  "value" : -179.629068792007,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 10991,
+                                  "value" : -47.4050410618428,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 11189,
+                                  "value" : -294.350407129459,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 11249,
+                                  "value" : -23.8864401099474,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 11299,
+                                  "value" : -336.067925243023,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 11475,
+                                  "value" : -34.7359226034523,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale0" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250854270136,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 0.999999978667075,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 1.62819343951218,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 3.14263466651293,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 1.44756841193967,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 1.99782222994111,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2775,
+                                  "value" : 1.9978222567647,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 1.91686217238796,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5459,
+                                  "value" : 1.9168622711625,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : 2.91282660657223,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : 1.49819430737918,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : 2.26261328473677,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6555,
+                                  "value" : 2.26261302669797,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 6684,
+                                  "value" : 2.26261292348245,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 7847,
+                                  "value" : 1.80271585742233,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 10124,
+                                  "value" : 1.42307176100333,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 10443,
+                                  "value" : 1.89289075715647,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 10830,
+                                  "value" : 1.89289077881327,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 10991,
+                                  "value" : 1.54509278787182,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 11189,
+                                  "value" : 1.54509294831174,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 11249,
+                                  "value" : 1.54509281798194,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 11299,
+                                  "value" : 1.54509268963002,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "scale1" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "eioe",
+                              "keyframes" : [
+                                {
+                                  "time" : 661,
+                                  "value" : 2.63250918877122,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 775,
+                                  "value" : 1.00000058753413,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 948,
+                                  "value" : 1.62819443086555,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 981,
+                                  "value" : 3.14263697819773,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1272,
+                                  "value" : 1.4475693922584,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 1424,
+                                  "value" : 1.99782308926838,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 2960,
+                                  "value" : 1.91686274786936,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5489,
+                                  "value" : 2.91282710288389,
+                                  "duration" : 12
+                                },
+                                {
+                                  "time" : 5565,
+                                  "value" : 1.49819432466266,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 5627,
+                                  "value" : 2.26261338799457,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 7847,
+                                  "value" : 1.80271622257662,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 10124,
+                                  "value" : 1.42307215813742,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 10443,
+                                  "value" : 1.89289128540211,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 10576,
+                                  "value" : 1.89289147804123,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 10991,
+                                  "value" : 1.54509334258029,
+                                  "duration" : 30
+                                },
+                                {
+                                  "time" : 11475,
+                                  "value" : 1.54509356719627,
+                                  "duration" : 30
+                                }
+                              ]
+                            },
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 8006,
+                          "duration" : 1675,
+                          "mediaStart" : 9860,
+                          "mediaDuration" : 1675,
+                          "scalar" : 1,
+                          "animationTracks" : {
+                            "visual" : [
+                              {
+                                "range" : [ 661, 30]
+                              },
+                              {
+                                "range" : [ 775, 30]
+                              },
+                              {
+                                "range" : [ 948, 30]
+                              },
+                              {
+                                "range" : [ 981, 30]
+                              },
+                              {
+                                "range" : [ 1272, 30]
+                              },
+                              {
+                                "range" : [ 1424, 30]
+                              },
+                              {
+                                "range" : [ 2775, 30]
+                              },
+                              {
+                                "range" : [ 2960, 30]
+                              },
+                              {
+                                "range" : [ 5459, 30]
+                              },
+                              {
+                                "range" : [ 5489, 12]
+                              },
+                              {
+                                "range" : [ 5565, 30]
+                              },
+                              {
+                                "range" : [ 5627, 30]
+                              },
+                              {
+                                "range" : [ 6555, 30]
+                              },
+                              {
+                                "range" : [ 6684, 30]
+                              },
+                              {
+                                "range" : [ 7847, 30]
+                              },
+                              {
+                                "range" : [ 10124, 30]
+                              },
+                              {
+                                "range" : [ 10443, 30]
+                              },
+                              {
+                                "range" : [ 10576, 30]
+                              },
+                              {
+                                "range" : [ 10830, 30]
+                              },
+                              {
+                                "range" : [ 10991, 30]
+                              },
+                              {
+                                "range" : [ 11189, 30]
+                              },
+                              {
+                                "range" : [ 11249, 30]
+                              },
+                              {
+                                "range" : [ 11299, 30]
+                              },
+                              {
+                                "range" : [ 11475, 30]
+                              }
+                            ]
+                          }
+                        },
+                    "audio" : 
+                        {
+                          "id" : 36,
+                          "_type" : "AMFile",
+                          "src" : 1,
+                          "trackNumber" : 2,
+                          "attributes" : {
+                            "ident" : "",
+                            "sampleRate" : 44100,
+                            "bitDepth" : 16,
+                            "gain" : 1.0,
+                            "mixToMono" : false
+                          },
+                            "channelNumber" : "0,1",
+                          "effects" : [
+
+                          ],
+                          "start" : 8006,
+                          "duration" : 1675,
+                          "mediaStart" : 9860,
+                          "mediaDuration" : 1675,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        }
+,
+                    "start" : 8006,
+                    "duration" : 1675,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 11603,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    }
+                  }
+                ],
+                "transitions" : [
+                  {
+                    "name" : "Fade",
+                    "duration" : 15,
+                    "trivial" : false,
+                    "useAudioPreRoll" : true,
+                    "useVisualPreRoll" : true,
+                    "leftMedia" : 4,
+                    "rightMedia" : 7
+                  },
+                  {
+                    "name" : "Fade",
+                    "duration" : 15,
+                    "trivial" : false,
+                    "useAudioPreRoll" : true,
+                    "useVisualPreRoll" : true,
+                    "leftMedia" : 7,
+                    "rightMedia" : 10
+                  },
+                  {
+                    "name" : "Fade",
+                    "duration" : 15,
+                    "trivial" : false,
+                    "useAudioPreRoll" : true,
+                    "useVisualPreRoll" : true,
+                    "leftMedia" : 10,
+                    "rightMedia" : 13
+                  },
+                  {
+                    "name" : "Fade",
+                    "duration" : 15,
+                    "trivial" : false,
+                    "useAudioPreRoll" : true,
+                    "useVisualPreRoll" : true,
+                    "leftMedia" : 13,
+                    "rightMedia" : 16
+                  },
+                  {
+                    "name" : "Fade",
+                    "duration" : 15,
+                    "trivial" : false,
+                    "useAudioPreRoll" : true,
+                    "useVisualPreRoll" : true,
+                    "leftMedia" : 16,
+                    "rightMedia" : 19
+                  },
+                  {
+                    "name" : "Fade",
+                    "duration" : 15,
+                    "trivial" : false,
+                    "useAudioPreRoll" : true,
+                    "useVisualPreRoll" : true,
+                    "leftMedia" : 19,
+                    "rightMedia" : 22
+                  },
+                  {
+                    "name" : "Fade",
+                    "duration" : 15,
+                    "trivial" : false,
+                    "useAudioPreRoll" : true,
+                    "useVisualPreRoll" : true,
+                    "leftMedia" : 22,
+                    "rightMedia" : 25
+                  },
+                  {
+                    "name" : "Fade",
+                    "duration" : 15,
+                    "trivial" : false,
+                    "useAudioPreRoll" : true,
+                    "useVisualPreRoll" : true,
+                    "leftMedia" : 25,
+                    "rightMedia" : 28
+                  },
+                  {
+                    "name" : "Fade",
+                    "duration" : 15,
+                    "trivial" : false,
+                    "useAudioPreRoll" : true,
+                    "useVisualPreRoll" : true,
+                    "leftMedia" : 28,
+                    "rightMedia" : 31
+                  },
+                  {
+                    "name" : "Fade",
+                    "duration" : 15,
+                    "trivial" : false,
+                    "useAudioPreRoll" : true,
+                    "useVisualPreRoll" : true,
+                    "leftMedia" : 31,
+                    "rightMedia" : 34
+                  },
+                  {
+                    "name" : "Fade",
+                    "duration" : 30,
+                    "trivial" : false,
+                    "useAudioPreRoll" : true,
+                    "useVisualPreRoll" : true,
+                    "leftMedia" : 34
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 1,
+                "medias" : [
+                  {
+                    "id" : 37,
+                    "_type" : "AMFile",
+                    "src" : 2,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Canción misión imposible",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 0,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "effects" : [
+
+                    ],
+                    "start" : 0,
+                    "duration" : 6021,
+                    "mediaStart" : 66,
+                    "mediaDuration" : 6021,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 38,
+                    "_type" : "AMFile",
+                    "src" : 2,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Canción misión imposible",
+                      "sampleRate" : 44100,
+                      "bitDepth" : 0,
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                      "channelNumber" : "0,1",
+                    "parameters" : {
+                      "volume" : {
+                        "type" : "double",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 4001,
+                            "value" : 1.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 4091,
+                            "value" : 0.0,
+                            "duration" : 0
+                          },
+                          {
+                            "time" : 4092,
+                            "value" : 1.0,
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 6021,
+                    "duration" : 3650,
+                    "mediaStart" : 441,
+                    "mediaDuration" : 3650,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 2,
+                "medias" : [
+                ]
+              },
+              {
+                "trackIndex" : 3,
+                "medias" : [
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "trackAttributes" : [
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      }
+    ],
+    "captionAttributes" : {
+      "enabled" : true,
+      "fontName" : "Arial",
+      "fontSize" : 64,
+      "backgroundColor" : [ 0, 0, 0, 191],
+      "foregroundColor" : [ 255, 255, 255, 255],
+      "lang" : "en",
+      "alignment" : 0,
+      "defaultFontSize" : true,
+      "opacity" : 0.5,
+      "backgroundEnabled" : true,
+      "backgroundOnlyAroundText" : true
+    },
+    "backgroundColor" : [ 0, 0, 0, 255]
+  },
+  "metadata" : {
+    "AutoSaveFile" : "C:\\Users\\SRIVAS\\AppData\\Local\\TechSmith\\Camtasia Studio\\9.0\\Auto-Saves\\VideoSISTECURCAP138353f4.autosave.tscproj",
+    "CanvasZoom" : 46,
+    "Date" : "2025-11-21 07:17:12 a. m.",
+    "IsAutoSave" : "0",
+    "Language" : "ENU",
+    "ProfileName" : "",
+    "ProjectDimensionsChanged" : "1",
+    "Title" : "VideoSISTECURCAP",
+    "audioNarrationNotes" : "",
+    "calloutStyle" : "Basic",
+    "canvasDetached" : "False",
+    "canvasPositionHeight" : "0",
+    "canvasPositionLeft" : "0",
+    "canvasPositionTop" : "0",
+    "canvasPositionWidth" : "0"
+  }
+}
